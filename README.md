@@ -48,7 +48,7 @@ A browser-based 2D finite element analysis tool for real-time structural simulat
 
 ```bash
 cd backend
-pip install fastapi uvicorn numpy scipy
+pip install -r requirements.txt
 uvicorn main:app --port 8000
 ```
 
